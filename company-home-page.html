@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="company-home-page-stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Project: Company Home Page</title>
+    </head>
+    <body>
+        <!-- Top nav bar -->
+        <header>
+            <nav class="light">
+                <div class="logo">
+                    <img src="images/triplebyte_logo.png" alt="logo">
+                </div>
+                <div class="topnav">
+                    <div class="topnav-desktop">
+                        <a href="#">For Companies</a>
+                        <a href="#">Log In</a>
+                        <button type="button" class="link" href="#">Sign Up</button>
+                    </div>
+                    <div class="topnav-mobile">
+                        <div class="hamburger-nav" id="hamburger-nav">
+                            <a href="#">For Companies</a>
+                            <a href="#">Log In</a>
+                            <button type="button" class="link" href="#">Sign Up</button>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                <div>
+            </nav>
+        </header>
+        <!-- Top hero banner-->
+        <main>
+            <div class="container">
+                <div class="content light">
+                    <div class="text-container">
+                        <h1>Get offers from top tech companies</h1>
+                        <p>Triplebyte cuts through the cruft of the job application process and connects the boldest and most innovative names in tech with the best and brightest engineers. Think you have what it takes?</p>
+                    </div>
+                    <div class="button-container">
+                        <button type="button" class="primary">Take the quiz</button>
+                        <button type="button" class="secondary-dark">Explore open positions</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Track Quiz section -->
+        <section id="quizzes">
+            <div class="container">
+                <div class="content light">
+                    <h2 class="center">Choose your track</h2>
+                    <div class="quiz-item-container">   
+                        <!-- List of quiz items -->
+                        <div class="quiz-item">
+                            <h3>Generalist</h3>
+                            <img src="images/Generalist.svg">
+                            <p>You're experienced with server-side web systems.</p>
+                            <div class="languages-container">
+                                <span>Node.js</span>
+                                <span>Python</span>
+                                <span>Ruby</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                        <div class="quiz-item">
+                            <h3>Front End</h3>
+                            <img src="images/FrontEnd.svg">
+                            <p>You're experienced with front-end frameworks.</p>
+                            <div class="languages-container">
+                                <span>Javascript</span>
+                                <span>jQuery</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                        <div class="quiz-item">
+                            <h3>Mobile</h3>
+                            <img src="images/Mobile.svg">
+                            <p>You're experienced with native iOS or Android development.</p>
+                            <div class="languages-container">
+                                <span>Swift</span>
+                                <span>Java</span>
+                                <span>Kotlin</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                        <div class="quiz-item">
+                            <h5 class="new">NEW</h5>
+                            <h3>Mashine Learning</h3>
+                            <img src="images/ML.svg">
+                            <p>You have experience building or deploying machine learning models.</p>
+                            <div class="languages-container">
+                                <span>Python</span>
+                                <span>R</span>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                        <div class="quiz-item">
+                            <h5 class="new">NEW</h5>
+                            <h3>Dev Ops</h3>
+                            <img src="images/DevOps.svg">
+                            <p>You have experience designing and managing reliable infrastructure.</p>
+                            <div class="languages-container">
+                                <span>Python</span>
+                                <span>Ruby</span>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                        <div class="quiz-item">
+                            <h5 class="new">NEW</h5>
+                            <h3>Data Science</h3>
+                            <img src="images/Data.svg">
+                            <p>You have experience designing experiments, building models.</p>
+                            <div class="languages-container">
+                                <span>Python</span>
+                                <span>R</span>
+                                <span>MATLAB</span>
+                            </div>
+                            <div class="button-wrapper"><button type="button" class="quiz">Take the quiz »</button></div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+            
+        <div class="big-background">
+            <div class="go-through container">
+                <div class="text-container">
+                    <h2>Why Triplebyte?</h2>
+                    <p>Go through Triplebyte once, then skip ahead to final interviews with top tech companies. Once you pass, you're accepted for life.</p>
+                </div>
+                <div class="steps-container light">
+                    <div class="steps-item">
+                        <img src="images/Step1.svg">
+                        <span>Triplebyte quiz</span>
+                    </div>
+                    <div class="steps-item">
+                        <img src="images/Step2.svg">
+                        <span>Triplebyte interview</span>
+                    </div>
+                    <div class="steps-item">
+                        <img src="images/Step3.svg">
+                        <span>Onsite interview</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="stats container">
+                <div class="stats-item">
+                    <div class="text-container">
+                        <h2>450+</h2>
+                        <p>companies <br> actively hiring</p>
+                    </div>    
+                </div>
+                <div class="stats-item">
+                    <div class="text-container">
+                        <h2>10,000+</h2>
+                        <p>Candidate <br> matches per week</p>
+                    </div>    
+                </div>
+                <div class="stats-item">
+                    <div class="text-container">
+                        <h2>3,000</h2>
+                        <p>Job offers <br> received</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners container">
+            <div class="content">
+                <div class="text-container">
+                    <h2>We work with great companies</h2>
+                    <p>We work with hundreds of companies of different sizes, stages, and industries and personally identify the ones that will be most exciting to you. All allow our pre-screened, pre-matched engineers to skip resume screens.</p>
+                </div>
+                <div class="partner-img-container">
+                    <div><img src="images/adobe.svg" alt="adobe"></div>
+                    <div><img src="images/robinhood.svg" alt="robinhood"></div>
+                    <div><img src="images/box.svg" alt="box"></div>
+                    <div><img src="images/color.svg" alt="color"></div>
+                    <div><img src="images/coursera.svg" alt="coursera"></div>
+                    <div><img src="images/dropbox.svg" alt="dropbox"></div>
+                    <div><img src="images/evernote.svg" alt="evernote"></div>
+                    <div><img src="images/flexport.svg" alt="flexport"></div>
+                    <div><img src="images/upstart.svg"></div>
+                    <div><img src="images/hipmunk.svg"></div>
+                    <div><img src="images/houseparty.svg"></div>
+                    <div><img src="images/instacart.svg"></div>
+                    <div><img src="images/lever.svg"></div>
+                    <div><img src="images/mixpanel.svg"></div>
+                    <div><img src="images/uber.svg"></div>
+                    <div><img src="images/opendoor.svg"></div>
+                    <div><img src="images/quip.svg"></div>
+                    <div><img src="images/quora.svg"></div>
+                    <div><img src="images/reddit.svg"></div>
+                    <div><img src="images/rubrik.svg"></div>
+                    <div><img src="images/truecar.svg"></div>
+                    <div><img src="images/twitch.svg"></div>
+                    <div><img src="images/wish.svg"></div>
+                    <div><img src="images/zoox.svg"></div>
+                    <div><img src="images/asana.svg"></div>
+                </div>
+                <div class="text-container">
+                    <p>Want to join these companies in hiring exceptional engineers on Triplebyte?</p>
+                    <button type="button" class="secondary-light">Start hiring</button>
+                </div>
+            </div>
+        </div>
+        <div class="salaries container">
+            <div class="text-container">
+                <h2>Interested in learning about software salaries?</h2>
+                <p>Get a direct line of sight into real software engineering offers made via Triplebyte using our Salary Tool!</p>
+                <button type="button" class="secondary-dark">Take a look</button>
+            </div>
+        </div>
+        <section class="opportunities"> 
+            <div class="text-container">
+                <h2>Featured Opportunities</h2>
+            </div>
+            <div class="oppertunity-wrapper">
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/rubrik.png">
+                    </div>
+                    <div class="text-container">
+                        <h4>Member of Technical Staff, Fr...</h4>
+                        <p>Rubrik</p>
+                    </div>
+                </div>
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/eero.jpg">
+                    </div>    
+                    <div class="text-container">
+                        <h4>Device Software - Systems E...</h4>
+                        <p>eero</p>
+                    </div>
+                </div>
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/snap-inc.png">
+                    </div>
+                    <div class="text-container">
+                        <h4>Software Engineer, Full Stack</h4>
+                        <p>Snap Inc</p>
+                    </div>
+                </div>
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/apple.png">
+                    </div>
+                    <div class="text-container">
+                        <h4>Siri Software Engineer, Music</h4>
+                        <p>Rubrik</p>
+                    </div>
+                </div>
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/ripple.png">
+                    </div>
+                    <div class="text-container">
+                        <h4>ODL Engineer</h4>
+                        <p>Ripple</p>
+                    </div>
+                </div>
+                <div class="single-oppertunity">
+                    <div class="image-wrapper">
+                        <img src="images/flexport.png">
+                    </div>
+                    <div class="text-container">
+                        <h4>Gneral Engineer</h4>
+                        <p>Flexport</p>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="secondary-light">See more</button>
+        </section>
+        <div class="faq">
+            <h2>Top Questions</h2>
+            <div class="faq-wrapper">
+                <div class="faq-item">
+                    <h3>When should I sign up</h3>
+                    <p>Take our quiz anytime, even just for fun! After the quiz, find a time to talk with us within 3-4 months before you can start a new full-time position. If you’re free sooner, that’s great too.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does it cost?</h3>
+                    <p>Free for engineers. We’ll even cover your flights and hotels for final interviews. Companies pay us because we make their hiring process more efficient.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is it confidential</h3>
+                    <p>Yes. We will not share any information about you with companies until you’re ready. We will also ask you for companies to block in case your current or past employers are on our platform.</p>
+                </div>
+            </div>
+            <button type="button" class="secondary-dark">See our FAQ</button>
+        </div>
+        <div class="testimonials">
+            <h2>Engineers ♥ Triplebyte</h2>
+            <div class="testimonials-wrapper">    
+                <div class="single-testimonial">
+                    <div class="img-wrapper">
+                        <img src="images/testimonial-peter.jpg">
+                    </div>
+                    <div class="text-container">
+                        <p>Triplebyte really opened doors for me. I lived three thousand miles from Silicon Valley, and had no contacts in the area. Triplebyte got me in touch with all kinds of companies. I ended up with a great offer from Stripe, and the job has been great.</p><br>
+                        <p class="grayout">Peter Lefferts, Software Engineer hired by Stripe</p>
+                    </div>      
+                </div>
+                <div class="single-testimonial">
+                    <div class="img-wrapper">
+                        <img src="images/testimonial-aubrey.jpg">
+                    </div>
+                    <div class="text-container">
+                        <p>Before using Triplebyte, nobody responded to me because I was a CS grad in Australia. Using Triplebyte, I interviewed at 5 companies and got 5 offers. I accepted a job at Flexport, because they’re exciting and growing really quickly.</p><br>
+                        <p class="grayout">Aubrey Worthington, Software Engineer hired by Flexport</p>    
+                    </div>
+                </div>
+                <div class="single-testimonial">
+                    <div class="img-wrapper">
+                        <img src="images/testimonial-alejandro.jpg">
+                    </div>
+                    <div class="text-container">
+                        <p>My experiences with Triplebyte were nothing short of fantastic. Triplebyte matched my passion with excellent candidate companies and provided me with immense exposure to a thriving industry in the heart of Silicon Valley.</p><br>
+                        <p class="grayout">Alejandro Lucena, Software Engineer hired by Apple</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="career-quiz">
+            <div class="text-container">
+                <h2>Ready to accelerate your career?</h2>
+                <p>You get 3 attempts to pass - give it a try and see how you do!</p>
+                <button type="button" class="primary">Take the quiz</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-item-wrapper">
+                <div class="footer-items">
+                    <h4>Company</h4>
+                    <p>ABOUT</p>
+                    <p>MANIFESTO</p>
+                    <p>OPEN SOURCE</p>
+                    <p>CONTACT</p>
+                    <p>CAREERS</p>
+                    <p>PRESEE</p>
+                </div>
+                <div class="footer-items">
+                    <h4>Software Engineering</h4>
+                    <p>SALARIES</p>
+                    <p>JOBS</p>
+                    <p>DIVERSITY</p>
+                    <p>FAQ</p>
+                    <p>BLOG</p>
+                </div>
+                <div class="footer-items">
+                    <h4>Terms and Policies</h4>
+                    <p>PRIVACY CENTER</p>
+                    <p>PRIVACY POLICY</p>
+                    <p>TERMS AND CONDITIONS</p>
+                    <div class="footer-img-wrapper">
+                        <img src="images/facebook-white.svg">
+                        <img src="images/twitter-white.svg">
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+        <script>
+            function myFunction() {
+              var x = document.getElementById("hamburger-nav");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+
+    </body>
+</html>
